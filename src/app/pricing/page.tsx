@@ -99,11 +99,13 @@ async function PricingPage() {
               </div>
 
               <div className="flex justify-center gap-4">
-                {/*  */}
+                          {/* @ts-ignore */}
+
                 <SignedIn>
                   <UpgradeButton />
                 </SignedIn>
-                {/*  */}
+                          {/* @ts-ignore */}
+
                 <SignedOut>
                   <LoginButton />
                 </SignedOut>

@@ -55,7 +55,8 @@ function NavigationHeader() {
 
           {/* right rection */}
           <div className="flex items-center gap-4">
-            {/*  */}
+                      {/* @ts-ignore */}
+
             <SignedOut>
               <Link
                 href="/pricing"

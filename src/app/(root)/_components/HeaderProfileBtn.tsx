@@ -15,7 +15,7 @@ function HeaderProfileBtn() {
           />
         </UserButton.MenuItems>
       </UserButton>
-
+      {/* @ts-ignore */}
       <SignedOut>
         <LoginButton />
       </SignedOut>

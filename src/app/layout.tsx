@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ClerkProvider } from "@clerk/nextjs";
 import ConvexClientProvider from "@/components/providers/ConvexClientProvider";
 import Footer from "@/components/Footer";
 import { dark } from "@clerk/themes";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import { ClerkProvider } from "@clerk/nextjs";
 
 
 const inter = Plus_Jakarta_Sans({ subsets: ["latin"] });
@@ -21,7 +21,6 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // 
     <ClerkProvider
       appearance={{
         baseTheme: dark,
